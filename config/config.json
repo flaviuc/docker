@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-docker-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxDocker1/SpfxDocker1WebPart.js",
+          "manifest": "./src/webparts/spfxDocker1/SpfxDocker1WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxDocker1WebPartStrings": "lib/webparts/spfxDocker1/loc/{locale}.js"
+  }
+}
